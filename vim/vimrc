@@ -15,3 +15,9 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 " Customize gitgutter
 set updatetime=250
 let g:gitgutter_sign_column_always = 1
+
+" Map semicolon to colon
+nmap ; :
+noremap ;; ;
+
+set number
